@@ -1,0 +1,46 @@
+header{
+	max-width: 800px;
+	ax-width: 800px;
+	background-color: black;
+	color: white;
+	font-family: verdana;
+	font-size: 21px;
+	margin: 0 auto;
+}
+main {
+	max-width: 800px;
+	background-color: black;
+	color: white;
+	font-family: verdana;
+	font-size: 21px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 50px;
+	font-weight: normal;
+	text-align: center;
+}
+
+a {
+	color: Aquarmarine;
+	font-size: 16px;
+	text-align: center;
+}
+
+
+h2 {
+	font-size: 42px;
+	font-weight: 300;
+	text-align: center;
+}
+
+p {
+	color: gray;
+	text-align: center;
+}
+
+
+p #copyright {
+	text-align: right !important;
+}
