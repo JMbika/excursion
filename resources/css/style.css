@@ -1,29 +1,37 @@
-header{
-	max-width: 800px;
-	ax-width: 800px;
-	background-color: black;
-	color: white;
+body {
+	background-color: #000;
+	color: #fff;
 	font-family: verdana;
-	font-size: 21px;
-	margin: 0 auto;
+	font-size: 21px;	
 }
-main {
-	max-width: 800px;
-	background-color: black;
-	color: white;
-	font-family: verdana;
-	font-size: 21px;
+
+#header {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+#main-content {
+	max-width: 1280px;
 	margin: 0 auto;
+	text-align: center;
+	/*margin-top: 50px;*/
+}
+
+video {
+	margin-bottom: 50px;
 }
 
 h1 {
 	font-size: 50px;
 	font-weight: normal;
-	text-align: center;
+	margin-bottom: 50px;
+	/*text-align: center;*/
 }
 
 a {
-	color: Aquarmarine;
+	color: Aquamarine;
 	font-size: 16px;
 	text-align: center;
 }
@@ -32,15 +40,25 @@ a {
 h2 {
 	font-size: 42px;
 	font-weight: 300;
-	text-align: center;
 }
 
 p {
 	color: gray;
-	text-align: center;
+	margin-bottom: 25px;
+	margin-top: 50px;
+}
+
+#icon {
+	margin: 25px 0;
+}
+
+#coming {
+	margin-bottom: 25px;
+}
+
+#copyright {
+	text-align: right;
+	margin-bottom: 25px;
 }
 
 
-p #copyright {
-	text-align: right !important;
-}
